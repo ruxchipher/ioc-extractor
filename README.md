@@ -6,7 +6,7 @@ like `hxxp://evil[.]com`, can defang or refang on the way out, dedupes
 everything, and exports to JSON or CSV.
 
 I built this for the detection side of my
-[purple-team-journey](https://github.com/Siddique-12300983/purple-team-journey)
+[purple-team-journey](https://github.com/ruxchipher/purple-team-journey)
 lab. Threat reports and alert emails are full of indicators written in slightly
 different ways, and copying them out by hand is slow and error-prone.
 
@@ -35,7 +35,7 @@ defang the output again before you paste it into a ticket.
 Python 3.9 or newer. It uses only the standard library.
 
 ```bash
-git clone https://github.com/Siddique-12300983/ioc-extractor.git
+git clone https://github.com/ruxchipher/ioc-extractor.git
 cd ioc-extractor
 ```
 
